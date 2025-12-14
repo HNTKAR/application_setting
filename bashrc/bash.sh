@@ -2,9 +2,9 @@
 stty stop undef
 stty start undef
 
-mkdir -p $HOME/bin
+mkdir -p $HOME/.bin
 
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/.bin:$PATH
 export EDITOR=nvim
 export LC_ALL=ja_JP.UTF-8
 
